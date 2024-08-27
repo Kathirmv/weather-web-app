@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #222;
+}
+#container{
+    width: 120%;
+    max-width: 470px;
+    background: linear-gradient(rgb(193, 255, 93),#fd43fd);
+    color: #fff;
+    margin: 100px;
+    border-radius: 20px;
+    padding: 30px ;
+    text-align: center;
+}
+.searchField{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#cityname{
+    position: absolute;
+    top: 175px;
+    left: 200px;
+    margin: 0px;
+    outline: 0px;
+    background: #ebfffc;
+    color: #555;
+    padding: 25px;
+    height: 45px;
+    border-radius: 35px;
+    font-size: 20px;
+}
+.sfield{
+padding-top: 10px;
+}
+.sicon{
+    position: absolute;
+    top: 175px;
+    left: 440px;
+    outline: 0;
+    border: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 0px;
+    cursor: pointer;
+}
+.climate_img{
+    padding-top: 10px;
+    width: 25%;
+}
+h1{
+    size: 10px;
+}
